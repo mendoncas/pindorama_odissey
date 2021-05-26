@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/watefall_treat.ogg-299c63d4c357cb773466e09921be409d.oggstr"
+
+[deps]
+
+source_file="res://Assets/watefall_treat.ogg"
+dest_files=[ "res://.import/watefall_treat.ogg-299c63d4c357cb773466e09921be409d.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0
