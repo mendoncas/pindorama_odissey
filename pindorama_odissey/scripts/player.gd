@@ -41,8 +41,3 @@ func _physics_process(delta):
 
 	direction = direction.normalized()
 	move_and_slide(direction * speed, Vector3.UP)
-	
-
-
-	
-

@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/flapping.ogg-2b5f6d46f3733a7d0657e1fc05cef088.oggstr"
+
+[deps]
+
+source_file="res://Assets/flapping.ogg"
+dest_files=[ "res://.import/flapping.ogg-2b5f6d46f3733a7d0657e1fc05cef088.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0
