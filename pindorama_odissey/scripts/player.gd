@@ -7,12 +7,7 @@ onready var head = get_node("Head")
 var direction = Vector3()
 var velocity = Vector3()
 var fall = Vector3()
-# Declare member variables here. Examples:
-# var a = 2
-# var b = "text"
-
-
-# Called when the node enters the scene tree for the first time.
+var armed = false
 
 func _ready():
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
@@ -21,8 +16,8 @@ func _ready():
 func _input(event):
 	if event is InputEventMouseMotion:
 		rotate_y(deg2rad(-event.relative.x *mouse_sensitivity))
-		head.rotate_x(deg2rad(-event.relative.y*mouse_sensitivity))
-		head.rotation.x = clamp(head.rotation.x, deg2rad(-180), deg2rad(90))
+		# head.rotate_x(deg2rad(-event.relative.y*mouse_sensitivity))
+		head.rotation.x = clamp(head.rotation.x, deg2rad(-90), deg2rad(90))
 
 
 func _physics_process(delta):
@@ -41,3 +36,16 @@ func _physics_process(delta):
 
 	direction = direction.normalized()
 	move_and_slide(direction * speed, Vector3.UP)
+
+	if Input.is_action_pressed("draw_bow"):
+		if !get_node("bow_draw").playing:
+			get_node("bow_draw").play()
+
+	if Input.is_action_just_released("draw_bow"):
+		get_node("bow_draw").stop()
+		get_node("bow_shoot").play()
+		var collision =  get_node("Head/Camera/ray").get_collider()
+		if collision != null and collision.name == "hunt":
+			collision.hit()
+
+

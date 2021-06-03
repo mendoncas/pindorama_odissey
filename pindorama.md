@@ -23,7 +23,9 @@ O movimento do jogador é *limitado* nessa cena. Equipado com um *arco e flecha*
 ## Terceira cena: Chegada dos portugueses
 Próximo à praia, o jogador avista uma cravela portuguesa e deve correr em sua direção, *evitando obstáculos*. O jogador corre em uma direção única e **desvia para a esquerda ou direita** com base nos *indicadores sonoros dos obstáculos*. A **velocidade do percurso** determinaos *acontecimentos posteriores*
 
-## Quarta cena: A Gripe
+## Quarta cena: Escambo (não decidido ainda)
+
+## Quinta cena: A Gripe
 A aldeia do jogador é acometida por uma doença nunca vista antes. *Guiado por um velho curandeiro*, deve buscar ervas medicinais na floresta. Receberá do curandeiro uma poção que o permitirá *ouvir a floresta*, bem como uma descrição de como as ervas *soam*. Durante essa cena, terá um encontro com seres da cultura Guarani. O desempenho e decisões do jogador nessa cena **decidirão** o futuro de sua aldeia.
 
 

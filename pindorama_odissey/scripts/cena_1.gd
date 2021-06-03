@@ -6,5 +6,7 @@ func _ready():
 
 
 func _on_Area_body_entered(body):
-	if body.name == "player": get_node("completed").play()
-	pass # Replace with function body.
+	if body.name == "player": 
+		get_node("completed").play()
+		get_tree().change_scene("res://scenes/cena_2.tscn")
+		queue_free()

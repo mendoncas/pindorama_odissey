@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/heartbeat_strong.ogg-548bc1c0cae0baab52c0777bce4dd8d3.oggstr"
+
+[deps]
+
+source_file="res://Assets/heartbeat_strong.ogg"
+dest_files=[ "res://.import/heartbeat_strong.ogg-548bc1c0cae0baab52c0777bce4dd8d3.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0
