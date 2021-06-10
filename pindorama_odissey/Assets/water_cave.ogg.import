@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/water_cave.ogg-9217efd519df8c75d276db87881201f6.oggstr"
+
+[deps]
+
+source_file="res://Assets/water_cave.ogg"
+dest_files=[ "res://.import/water_cave.ogg-9217efd519df8c75d276db87881201f6.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

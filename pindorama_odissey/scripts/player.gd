@@ -37,15 +37,16 @@ func _physics_process(delta):
 	direction = direction.normalized()
 	move_and_slide(direction * speed, Vector3.UP)
 
-	if Input.is_action_pressed("draw_bow"):
-		if !get_node("bow_draw").playing:
-			get_node("bow_draw").play()
+	if armed:
+		if Input.is_action_pressed("draw_bow"):
+			if !get_node("bow_draw").playing:
+				get_node("bow_draw").play()
 
-	if Input.is_action_just_released("draw_bow"):
-		get_node("bow_draw").stop()
-		get_node("bow_shoot").play()
-		var collision =  get_node("Head/Camera/ray").get_collider()
-		if collision != null and collision.name == "hunt":
-			collision.hit()
+		if Input.is_action_just_released("draw_bow"):
+			get_node("bow_draw").stop()
+			get_node("bow_shoot").play()
+			var collision =  get_node("Head/Camera/ray").get_collider()
+			if collision != null and collision.has_method("hit"):
+				collision.hit()
 
 
