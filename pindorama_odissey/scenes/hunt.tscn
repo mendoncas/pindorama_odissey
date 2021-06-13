@@ -39,3 +39,5 @@ stream = ExtResource( 3 )
 attenuation_model = 3
 unit_db = 6.598
 autoplay = true
+
+[connection signal="finished" from="hit2" to="." method="_on_hit2_finished"]

@@ -1,37 +1,49 @@
+    Nos anos 1500, Portugal, estava se tornando a principal potência na exploração dos oceanos. A grande estabilidade política e ecônomica possibilitou ao pais vivenciar grande desenvolvimento comercial e tecnológico .
+ Foram nessas circunstàncias que foi iniciada a expedição que, acidentalmente descobririam o Brasil e riquezas incalculáveis
+
+No entanto, a terra encontrada já era habiitada e os portugueses traziam consigo doenças como varíola, febre amarela, sarampo e gripe.
+
+Você é Raoni, um caçador que sentirá as consequências da colonização de seu povo e terá o destino da tribo em suas mãos
+
+Assim inicia sua história... 
+
+
 # Cena 1: 
 
 Personagem guia:
 	Garoto, preciso que você vá ao riacho na floresta e busque água para mim.
 	Isso deve ser fácil, os pássaros vão te guiar para lá.
-	Lembre-se, você não vai se perder enquanto seguir o chamado da floresta.
+	Você não vai se perder enquanto seguir o chamado deles
 
 
 # Cena 2
 
 Personagem guia:
-	Se prepare! Hoje você vai aprender a caçar.
-	Lembre-se, seus olhos podem te enganar, mas seus ouvidos não!
-	Escute com atenção os sons da presa e atinja-a
-
-final da cena:
-	se o jogador tiver acertado todas as tentativas:
-		
+	Agora é hora de caçar
+	Fique imóvel, Escute com atenção aos sons da presa e atinja-a
 
 # Cena 3
 
 personagem guia:
-	Você escuta isso? Há algo chegando no mar!
-	Vamos correr! Se chegarmos rápido, serremos os primeiros a ver.
-	Tente evitar os obstáculos, lembre-se de ficar atento aos seus instintos!
+	Você está ouvindo? Há algo chegando no mar!
+	corra e Tente evitar os obstáculos, lembre-se de ficar atento aos seus instintos!
+
+após a chegada: 
+	Ao chegar, você se depara com uma grande embarcação. de dentro dela, começam a sair homens
+Eles têm aparencia frágil e parecem maravilhados com a terra. 
+Um deles se aproxima com cuidado de você e estende a mão
+Ele entrega um pequeno objeto que refletia osol com um brilho prateado
+Você pode ver seu rosto nele, como vê quando olha no fundo de um lago 
+
+
+Meses depois...
+
 
 # Cena 4
 personagem guia:
-	menino, Os navegadores trouxeram consigo doenças e morte, toda a tribo está sendo flagelada por essa maldição. Poderíamos buscar por remédios na floresta, mas ela está fora de equilíbrio há muito tempo. Os frutos e ervas medicinais ficaram escassos depois que os viajantes passaram ofender a floresta e derrubar suas árvores. A grande serpente Moñai, vendo que a escassez se aproximava, roubou o que sobrou da floresta para si.
-Nossa esperança está protegida  na grande caverna da serpente gananciosa. 
-Você deve derrotá-la, garoto, e recuperar o que ela roubou para restaurar a floresta e curar nossa aldeia.
-Somente assim podemos reverter o dano dos invasores.
-
-
+	Raoni, Os navegadores trouxeram consigo doenças e morte, toda a tribo está sendo flagelada por essa maldição. Poderíamos buscar por remédios na floresta, mas ela está frágil há muito tempo. Os frutos ficaram escassos depois que os viajantes passaram a invadir a floresta e derrubar suas árvores. A grande serpente Moñai, vendo que a escassez se aproximava, roubou o que sobrou da floresta para si.
+Nossa esperança está na grande caverna da serpente gananciosa. 
+Você deve derrotá-la, caçador, e recuperar o que ela roubou para restaurar a floresta e curar nossa aldeia.
 	
 	
 	

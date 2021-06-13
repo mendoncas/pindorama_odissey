@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/cena_2.ogg-e792a4caaf9197e08f1ff2d128fb3a13.oggstr"
+
+[deps]
+
+source_file="res://Assets/cena_2.ogg"
+dest_files=[ "res://.import/cena_2.ogg-e792a4caaf9197e08f1ff2d128fb3a13.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0
